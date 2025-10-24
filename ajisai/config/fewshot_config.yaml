@@ -1,0 +1,11 @@
+# ==============================
+# Few-Shot Evaluation Config
+# ==============================
+
+model_checkpoint: "./checkpoints/ajisai_best.pt"
+
+evaluation:
+  classifier: LogisticRegression
+  max_iter: 200
+  test_split: 0.2
+  random_state: 42
