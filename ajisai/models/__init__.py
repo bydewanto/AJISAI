@@ -1,4 +1,7 @@
-from .ajisai import AjisaiModel
-from .base_encoder import get_encoder
+# ajisai/models/__init__.py
 
-__all__ = ["AjisaiModel", "get_encoder"]
+from .ajisai import AjisaiDualEncoder
+from .base_encoder import load_base_encoder
+from .projector import ProjectionHead
+
+__all__ = ["AjisaiDualEncoder", "load_base_encoder", "ProjectionHead"]
