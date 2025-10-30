@@ -1,0 +1,9 @@
+{
+  "experiment_name": "Ajisai_MangoFewShot",
+  "encoder": "resnet18",
+  "epochs": 100,
+  "final_loss": 0.1234,
+  "val_accuracy": 0.965,
+  "f1_score": 0.962,
+  "timestamp": "2025-10-22T23:55:00"
+}

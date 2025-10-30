@@ -1,0 +1,29 @@
+# =========================
+# Ajisai: Mango Few-Shot Experiment Config
+# =========================
+experiment_name: "Ajisai_MangoFewShot"
+
+dataset:
+  name: "MangoLeafDisease"
+  train_dir: "./data/mango/train"
+  val_dir: "./data/mango/val"
+  num_classes: 4
+  image_size: 224
+
+model:
+  encoder: "resnet18"
+  projector_dim: 128
+  dual_encoder: true
+
+training:
+  epochs: 100
+  batch_size: 32
+  learning_rate: 0.0003
+  weight_decay: 1e-4
+  temperature: 0.5
+  device: "cuda"
+
+logging:
+  save_dir: "./experiments/mango_fewshot"
+  log_interval: 10
+  save_every: 10
