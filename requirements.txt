@@ -1,0 +1,11 @@
+torch>=2.0
+torchvision
+tqdm
+numpy
+pyyaml
+scikit-learn
+matplotlib
+seaborn
+Pillow
+faiss-gpu
+wandb
